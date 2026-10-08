@@ -1,0 +1,19 @@
+{
+  "name": "testing-qlns",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Backend demo for white-box testing of HRM use cases",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "express": "^5.1.0",
+    "multer": "^2.0.2"
+  }
+}
